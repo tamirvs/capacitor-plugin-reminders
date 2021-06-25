@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tamirvs.plugins.reminders">
+    <application>
+        <receiver android:name="com.tamirvs.plugins.reminders.RemindersReceiver" android:enabled="true" />
+    </application>
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+</manifest>
